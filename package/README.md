@@ -1,8 +1,9 @@
-# rightmove_webscraper
+# rightmove_floorscraper
+This is a fork of rightmove_webscraper
 
 <a href="http://www.rightmove.co.uk/">rightmove.co.uk</a> is one of the UK's largest property listings websites, hosting thousands of  listings of properties for sale and to rent.
 
-The <code>rightmove_webscraper.py</code> class is a simple Python interface to scrape property listings from the website and prepare them in a Pandas dataframe for analysis.
+The <code>rightmove_floorscraper.py</code> class is a simple Python interface to scrape property listings from the website and prepare them in a Pandas dataframe for analysis.
 
 The class uses the <i>lxml</i> and <i>requests</i> libraries to scrape data from the rightmove website.
 
