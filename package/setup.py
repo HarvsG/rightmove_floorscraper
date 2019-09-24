@@ -9,14 +9,14 @@ The package is intended for use by data analysts/scientists who require easy acc
 """
 
 setup(
-    name="rightmove_webscraper",
-    packages=["rightmove_webscraper"],
-    version="0.3",
-    description="A class for scraping data from rightmove.co.uk",
+    name="rightmove_floorscraper",
+    packages=["rightmove_floorscraper"],
+    version="0.2",
+    description="A class for scraping floorplan data from rightmove.co.uk",
     long_description=long_description,
-    author="Toby Petty",
-    author_email="hello@tobypetty.com",
-    url="https://github.com/woblers/rightmove_webscraper.py",
+    author="CodingDoctor",
+    author_email="rightmovescraper@codingdoctor.co.uk",
+    url="https://github.com/HarvsG/rightmove_webscraper.py",
     install_requires=[
         "pandas",
         "requests",
